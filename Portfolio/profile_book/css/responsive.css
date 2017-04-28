@@ -1,0 +1,285 @@
+/*==============================================
+タブレット用
+==============================================*/
+
+
+@media(max-width:1024px){
+
+/* =====================
+  setting
+===================== */
+
+	.container {
+		width: 100%;
+	}
+
+	header ul {
+		margin-left: 50px;
+	}
+
+	.route {
+		margin-top: 50px;
+	}
+
+	.btn {
+		width: 47%;
+		margin:0 1.5%;
+		display: inline-block;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+/* =======================
+				 profile
+========================== */
+	.select-pic {
+		display: none;
+	}
+
+
+	#taro {
+		padding-top: 0px;
+	}
+
+/* =======================
+				 hometown
+========================== */
+	.introduction-text {
+    font-size: 1.5em;
+	}
+
+	.box {
+		width: 40%;
+		height: 380px;
+		margin: 0 5%;
+	}
+
+	.hometown-img {
+		margin: 0 20%;
+	}
+
+	.place {
+		height: 30px;
+		text-align: left;
+	}
+
+	.comment {
+		width: 100%;
+		height: 50px;
+	}
+
+/* =======================
+			seating_chart
+========================== */
+
+	
+
+}
+
+
+/*==============================================
+スマホ用
+==============================================*/
+
+@media(max-width:767px){
+
+/* =====================
+  setting
+===================== */
+
+	.container {
+		width: 100%;
+	}
+
+	header ul {
+		display: none;
+	}
+
+	body {
+		font-size: 1rem;
+	}
+
+	.title h1 {
+		font-size: 3.5rem;
+	}
+
+	.title h2 {
+		font-size: 1.8rem;
+	}
+
+	.route {
+		margin-top: 50px;
+	}
+
+	.btn {
+		width: 47%;
+		margin:0 1.5%;
+		display: inline-block;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.menu-box {
+		display: block;
+	}
+
+
+/* =======================
+				 greetings 
+========================== */
+
+	.slideshow {
+		height: 100vh;
+	}
+
+	.slide1 {
+		background-image: url(../img/img_01.JPG)
+	}
+
+	.slide2 {
+		background-image: url(../img/img_07.JPG)
+	}
+
+	.slide3 {
+		background-image: url(../img/img_08.JPG)
+	}
+
+	.first-greetings-text {
+		height: 82px;
+	}
+
+	.first-greetings-text h1 {
+		font-size: 4rem;
+	}
+
+	.first-greetings-text p {
+		font-size: 1.5em;
+	}
+
+	.greetings-text {
+		height: 50px;
+	}
+
+/* =======================
+				 profile
+========================== */
+
+	.select-pic {
+		display: none;
+	}
+
+	#taro, #hanako {
+		width: 100%;
+	}
+
+	.taro-pic2, .hanako-pic2 {
+		height: 0;
+		width: 50%;
+		padding-top: 70.5%;
+		margin: 0 25%;
+	}
+
+	.taro-qa, .hanako-qa {
+		width:100%;
+		padding: 1%;
+	}
+
+/* =======================
+				 hometown
+========================== */
+
+	.introduction-text {
+    font-size: 1.5em;
+	}
+
+	.box {
+		width: 90%;
+		height: 380px;
+		float: none;
+		margin: 0 5%;
+	}
+
+	.hometown-img {
+		margin: 2% 20%;
+	}
+
+	.place {
+		height: 30px;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.comment {
+		width: 100%;
+		height: 50px;
+	}
+
+/* =======================
+			seating_chart
+========================== */
+
+	.guest {
+		display: none;
+	}
+
+	.seating-chart-main {
+		background-position: center;
+	}
+
+	.groom-bride {
+		font-size: 1.2rem;
+	}
+
+/* =======================
+			menu
+========================== */
+	
+	.menu-phone {
+		display: block;
+	}
+
+	.menu-phone-img {
+		background-image: url(../img/cuisine3.jpg);
+		height: 200px;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.menu-phone .menu-text {
+		width: 80%;
+		margin: 20px 10%;
+		height: 100px;
+		text-align: center;
+	}
+
+	.menu-phone .cuisine-title {
+		font-size: 1.4rem;
+	}
+
+	.menu-phone p {
+		font-size: 1rem;
+	}
+
+	.parallax-window {
+		display: none;
+	}
+
+/* =======================
+			message
+========================== */
+
+	.message-text {
+		font-size: 1.2rem;
+	}
+
+	.form {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+}
+

@@ -1,0 +1,565 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Punctuation Sans","KT Jan Beta 300","Yu Gothic","YuGothic","Hiragino Kaku Gothic ProN","Meiryo",sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.2rem;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+  background: rgba(255,255,255,0.8);
+  position: fixed;
+	top: 0;
+	z-index: 100;
+	font-size: 1.4rem;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header li {
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+	line-height: 50px;
+	display: block;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+header a:hover {
+	color: gray;
+}
+
+.current {
+	font-weight: bold;
+}
+
+/* ハンバーガーメニューここから */
+.menu-box{
+	display: none;
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-right: 5%;
+	border: 1px solid #4c4c4c;
+	margin-top: 5px;
+}
+
+.list-bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	margin: 5px auto;
+	background-color: #4c4c4c;
+}
+
+.list-bar:first-child{
+	margin-top: 10px;
+}
+/* ハンバーガーメニューここまで */
+
+footer {
+	text-align: right;
+}
+
+.title {
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.title h1 {
+	font-size: 5rem;
+}
+
+.title h2 {
+	font-size: 2.5rem;
+}
+
+.route {
+	margin: 100px auto 20px;
+}
+
+.btn {
+	background-color: #aee9ae;
+	border-radius: 10px;
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+}
+
+.btn a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.btn a:hover {
+	opacity: 0.7;
+	color: gray;
+}
+
+.back {
+	float: left;
+}
+
+.next {
+	float: right;
+}
+
+
+
+/* =======================
+				 greetings 
+========================== */
+
+.slideshow {
+	position: relative;
+}
+
+.slide1 {
+	background-image: url(../img/img_01.JPG)
+}
+
+.slide2 {
+	background-image: url(../img/img_05.JPG)
+}
+
+.slide3 {
+	background-image: url(../img/img_06.JPG)
+}
+
+.first-greetings-text {
+	z-index: 999;
+	width: 100%;
+	position: absolute;
+/*	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+	color: white;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 200px;
+	color: rgba(255,255,255,0.7);
+}
+
+.first-greetings-text h1 {
+	font-size: 7rem;
+	margin-bottom: -10px;
+}
+
+.first-greetings-text p {
+	font-size: 2.7rem;
+}
+
+.greetings {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.greetings-text {
+	height: 70px;
+	padding: 15px auto;
+}
+
+.greetings-text span {
+	font-size: 3rem;
+	color: gray;
+}
+
+.greetings-text:last-child {
+	height: 40px;
+}
+
+#container {
+	height: 600px;
+	position: relative;
+}
+
+
+/* =========================
+					 profile 
+============================ */
+.select-pic {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-weight: bold;
+}
+
+.select-text {
+	padding-bottom: 50px;
+	width: 100%;
+	}
+
+.select-text p {
+	border: 3px double #004c98;
+	padding: 3px 10px;
+	width: 230px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.taro-pic1 a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 300%;
+	background-image: url(../img/baby_taro.png);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	text-align: center;
+	float: left;
+}
+
+.hanako-pic1 a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 300%;
+	background-image: url(../img/baby_hanako.png);
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	text-align: center;	
+	float: right;
+}
+
+.select-pic a:hover {
+	opacity: 0.7;
+}
+
+#taro, #hanako {
+	width: 960px;
+	height: 600px;
+	margin: 50px auto;
+}
+
+#taro {
+	padding-top: 80px;
+}
+
+#hanako {
+	margin-bottom: 0;
+	height: 520px;
+}
+
+.prof-pic {
+	width: 350px;
+	height: 500px;
+	float: left;
+	margin: 20px 20px 0px 20px;
+	background-size: cover;
+}
+
+.taro-qa, .hanako-qa {
+	width: 570px;
+	height: 500px;
+	float: left;
+	line-height: 40px;
+	padding: 50px 50px;
+}
+
+.taro-qa th, .hanako-qa th {
+	width: 50%;
+}
+
+.taro-pic2 {
+	background-image: url(../img/taro.png);
+}
+
+.hanako-pic2 {
+	background-image: url(../img/hanako.png);
+}
+
+/* ==========================
+				  hometown
+============================ */
+.introduction-text {
+	font-size: 2em;
+	color: #4c4c4c;
+	border-bottom: 3px solid #aeaee9;
+	margin: 0px 20px;
+}
+
+.box {
+	width: 200px;
+	height: 450px;
+	float: left;
+	margin: 0px 20px;
+}
+
+.hometown-img {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+.hometown1 {
+	background-image: url(../img/tokyo1.png);
+}
+
+.hometown2 {
+	background-image: url(../img/tokyo2.jpg);
+}
+
+.hometown3 {
+	background-image: url(../img/tokyo3.jpg);
+}
+
+.hometown4 {
+	background-image: url(../img/tokyo4.jpeg);
+}
+
+.hometown5 {
+	background-image: url(../img/osaka1.jpg);
+}
+
+.hometown6 {
+	background-image: url(../img/osaka2.jpg);
+}
+
+.hometown7 {
+	background-image: url(../img/osaka3.jpg);
+}
+
+.hometown8 {
+	background-image: url(../img/osaka4.jpeg);
+}
+
+.place {
+	font-size: 150%;
+	color: 	#5d7bd4;
+	text-align: center;
+	height: 54px;
+	margin-top: 10px;
+	line-height: 50px;
+}
+
+.comment {
+	height: 90px;
+}
+
+.info {
+	margin-top: 12px;
+}
+
+.info a {
+	color: #3535c9;
+}
+
+.info a:hover {
+	opacity: 0.7;
+}
+
+.info a:visited {
+	color: #4c2078;
+}
+
+.tokyo {
+	padding-bottom: 50px;
+}
+
+/* ============================
+				 seating_chart 
+============================= */
+.seating-chart-main {
+	width: 100%;
+	background-image: url(../img/img_02.jpeg);
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+}
+
+.date-and-place {
+	color: white;
+	text-align: right;
+	padding-right: 2%;
+}
+
+.groom-bride {
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #e9aecc;
+	font-size: 1.8rem;
+}
+
+.table-line {
+	height: 120px;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+.table {
+	float: left;
+	width: 30%;
+}
+
+.guest {
+	height: 130px;
+	float: left;
+	line-height: 33px
+}
+
+.table-number {
+	height: 100px;
+	width: 100px;
+	background-color: #86b2de;
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+	font-size: 2rem;
+	color: black;
+	font-weight: bold;
+	margin: 0 1.5%;
+}
+.middle {
+	margin-left: 5.5%;
+	margin-right: 4.5%;
+}
+
+.line3 {
+	margin: 40px auto 0;
+}
+
+.tableG {
+	margin-left:17%;
+}
+
+.tableH {
+	float: right;
+	margin-right: 17%;
+}
+
+.note {
+	text-align: right;
+	padding-right: 2%;
+}
+
+.table-line a:hover {
+	cursor: pointer;
+}
+
+.lightbox .guest {
+	height: 80px;
+	line-height: 30px;
+}
+
+.lightbox .table-number {
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	font-size: 1.5rem;
+}
+
+.lightbox {
+	display: none;
+	text-align: center;
+}
+
+.lightbox h4 {
+	font-size: 2rem;
+}
+
+.lightbox p {
+	font-size: 1.2rem;
+	line-height: 20px;
+}
+
+
+
+/* ============================
+              menu 
+============================== */
+.menu {
+	height: 700px;
+	/*background-image: url(../img/cuisine.jpeg);*/
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 50px;
+}
+
+.menu-text {
+	height: 90px;
+	line-height: 2rem;
+	font-size: 1.3rem;
+}
+
+.menu-text:nth-child(n+6) {
+	height: 70px;
+}
+
+.cuisine-title {
+	font-size: 2rem;
+	color: pink;
+	line-height: 2.5rem;
+}
+
+.menu-phone {
+	display: none;
+}
+
+
+/* ==========================
+					 message 					
+=========================== */
+.message-img {
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/img_04.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.message-text {
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	padding: 50px 0;
+}
+
+.form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+
