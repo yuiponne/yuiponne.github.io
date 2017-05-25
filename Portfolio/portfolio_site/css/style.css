@@ -1,0 +1,777 @@
+/* ====================
+	setting
+=====================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+
+.menu-box{
+	position: fixed;
+	top: 4.5vw;
+	right: 6vw;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin-right: 5%;
+	margin-top: 5px;
+	text-align: center;
+	z-index: 10;
+}
+
+.list-bar {
+  transition: all 0.3s;
+  transform: rotate(0deg);
+  display: block;
+	width: 25px;
+	height: 2px;
+	margin: 5px auto;
+	background-color: black;
+ }
+
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 25%;
+	height: 100vh;
+	padding: 10% 0 0 0;
+	background: rgba(196,196,196,0.6);
+	text-align: center;
+	line-height: 50px;
+	display: none;
+}
+
+.nav-contents a {
+	font-size: 1.8rem;
+	color: rgb(0,0,0);
+}
+
+.nav-contents a:hover {
+	font-size: 2.2rem;
+}
+
+.arrow{
+	position: fixed;
+	bottom: 4.5vw;
+	right: 6vw;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	margin-right: 5%;
+	margin-top: 5px;
+	text-align: center;
+	z-index: 10;
+	background: url(../img/img7.png) no-repeat;
+	background-size: cover;
+}
+
+
+/* ====================
+	Header
+=====================*/
+
+.img1 {
+	background: url(../img/img1.png) no-repeat;
+	height: 290px;
+	position: relative;
+	top: -50px;
+}
+
+.top-header {
+	position: relative;
+	margin: 0 auto 100px;
+	padding: 100px 8%;
+}
+
+.site-title {
+	font-weight: 600;
+	font-size: 6rem;
+	letter-spacing: .8rem
+}
+
+.img4 {
+	position: relative;
+	top: 14px;
+	left: 14px;
+	display: inline-block;
+	background: url(../img/img4.png) no-repeat;
+	height: 55px;
+	width: 150px;
+}
+
+
+/* ====================
+	Profile
+=====================*/
+.img3 {
+	background-image: url(../img/img3.png);
+	background-size: cover;
+	width: 100vw;
+	height: 1000px
+}
+
+.profile .sub-title {
+	padding-top: 200px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 500;
+	font-size: 4rem;
+	letter-spacing: .6rem
+}
+
+.sub-title p {
+	text-align: center;
+	font-family: ;
+	font-size: 1.5rem;
+	color: rgb(100,100,100);
+}
+
+.prof-pic {
+	background: url(../img/img6.png) no-repeat;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 100px 0px 50px 10%;
+}
+
+.myname {
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 0 auto 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+.profile-text {
+	width: 400px;
+	height: 350px;
+	float: right;
+	margin: 80px 10% 50px 50px;
+	font-size: 1.2rem;
+}
+
+.img5 {
+	background: url(../img/img5.png) no-repeat;
+	width: 200px;
+	height: 55px;
+}
+
+.like {
+	font-size: 5rem;
+	color: rgb(244,164,196);
+	display: inline-block;
+	margin: 20px auto;
+}
+
+.like-text {
+	display: inline-block;
+	font-size: 1.2rem;
+}
+
+
+/* ====================
+	Work
+=====================*/
+.mywork {
+	height: 600px
+}
+
+.work {
+	margin: 100px auto;
+	text-align: center;
+}
+
+.work img {
+	width: 40%;
+	height: 40%;
+}
+
+.work img:hover {
+	border: 3px solid rgb(169,169,169);
+}
+
+
+.work1 {
+	margin: 0 2% 0 5%;
+}
+
+.work2 {
+	margin: 0 5% 0 2%;
+}
+
+/* ====================
+	Contact
+=====================*/
+.contact {
+	background-image: url(../img/img3.png);
+	background-size: cover;
+	width: 100%;
+	height: 800px
+}
+
+.contact .sub-title {
+	padding-top: 200px;
+}
+
+
+.contact-text {
+	margin: 80px auto 0;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+.flex-box {
+	width: 700px;
+	margin: 50px auto 20px;
+	font-size: 1.2rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.form {
+	float: left;
+	margin: 0 5% 0 10%;
+}
+
+.form-control-wrap {
+	position: relative;
+}
+
+.form-message {
+	margin-right: 10%;
+}
+
+.img5 {
+	background: url(../img/img5.png) no-repeat;
+	width: 200px;
+	height: 55px;
+}
+
+.send-button {
+	text-align: center;
+}
+
+.btn {
+	border-radius: 5px;
+	text-decoration: none;
+	background: rgb(252, 238, 131);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3)
+	position: relative;
+	text-align: center;
+	transition: 0.3s;
+	font-size: 1.3rem;
+	padding: 7px 20px;
+	margin-bottom: 35px;
+}
+
+/* ====================
+	Footer
+=====================*/
+.footer {
+	background-color: rgb(252, 238, 131);
+	height: 10vh;
+/*	display: absolute;
+*/	bottom: -20px;
+}
+
+.copylight {
+	text-align: center;
+	line-height: 10vh;
+}
+
+/* ====================
+	Work-Main Visual
+=====================*/
+.works {
+	background-color: rgb(247,239,223);
+}
+
+#work-top {
+	margin-top: 5%;
+	margin-bottom: 5%
+}
+
+.screenshot {
+	float: left;
+}
+
+.explanation {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.screenshot img {
+	width: 30vw;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+.comment-for-work {
+	width: 25vw;
+	float: right;
+	margin-right: 5%;
+}
+
+.comment-for-work h2 {
+	margin: 30px 0 5px;
+	font-size: 2rem;
+	text-align: left;
+	font-weight: bold;
+}
+
+.comment-for-work p {
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.comment-for-work h1 {
+	margin: 10px 0 5px;
+	font-size: 3rem;
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 1px dashed;
+}
+
+.comment-for-work a {
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+.comment-for-work a:hover {
+	font-size: 1.8rem;
+}
+
+.arrow-work{
+	position: fixed;
+	bottom: 4.5vw;
+	right: 6vw;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	margin-right: 5%;
+	margin-top: 5px;
+	text-align: center;
+	z-index: 10;
+	background: url(../img/img8.png) no-repeat;
+	background-size: cover;
+}
+
+.work2-img-group {
+	width: 40vw;
+}
+
+
+/* =========================================
+  Media Queries
+=========================================== */
+
+
+/*==============================================
+タブレット用
+==============================================*/
+@media(max-width: 1024px) {
+
+	/* =====================
+	  setting
+	===================== */
+
+	.container{
+		width: 100%;
+	}
+
+	.nav {
+		padding: 20% 0 0 0;
+	}
+
+	/* ====================
+		Header
+	=====================*/
+
+	.top-header {
+		padding: 5% 10%;
+	}
+
+	/* ====================
+		Profile
+	=====================*/
+	.img3 {
+		background-image: url(../img/img3.png);
+		background-size: cover;
+		width: 100vw;
+		height: 900px
+	}
+
+	.profile .sub-title {
+		padding-top: 250px;
+	}
+
+	.prof-pic {
+		width: 250px;
+		height: 250px;
+		margin: 10% 0 2.5% 5%;
+	}
+
+	.profile-text {
+		height: 300px;
+		margin: 10% 5% 2.5px 0;
+	}
+
+	/* ====================
+		Work
+	=====================*/
+	.mywork {
+		height: 500px
+	}
+
+	/* ====================
+		Contact
+	=====================*/
+	.contact {
+		background-image: url(../img/img3.png);
+		background-size: cover;
+		width: 100%;
+		height: 800px
+	}
+
+	.contact .sub-title {
+		padding-top: 150px;
+	}
+
+
+	.contact-text {
+		margin: 4% auto 0;
+		font-size: 1.2rem;
+	}
+
+	.flex-box {
+		margin: 4% auto 2%;
+	}
+
+	label {
+		margin-bottom: 1%;
+	}
+
+	.img5 {
+		background: url(../img/img5.png) no-repeat;
+		width: 200px;
+		height: 55px;
+	}
+
+	.btn {
+		padding: 1% 15%;
+		margin-bottom: 35px;
+	}
+
+	/* ====================
+		Footer
+	=====================*/
+	.footer {
+	}
+
+  /* ====================
+		Work-Main Visual
+	=====================*/
+	.screenshot {
+		width: 100%;
+	}
+
+	.explanation {
+		margin-top: 5% auto;
+	}
+
+	.screenshot img {
+		width: 40vw;
+		margin: 0 5vw 0 10vw;
+	}
+
+	.comment-for-work {
+		width: 30vw;
+		margin: 0 10vw 0 5vw;
+	}
+
+	.work2-img-group {
+		width: 40vw;
+		margin: 0 auto;
+	}
+
+}
+
+/*==============================================
+スマホ用
+==============================================*/
+
+@media(max-width: 767px) {
+
+	/* =====================
+	  setting
+	===================== */
+
+
+	/* ====================
+		Header
+	=====================*/
+
+	.img1 {
+		background: url(../img/img1.png) no-repeat;
+		height: 30vh;
+		position: relative;
+		top: -50px;
+		background-size: cover;
+	}
+
+	.top-header {
+		margin: 0 auto;
+		padding: 10% 8%;
+	}
+
+	.site-title {
+		font-size: 5rem;
+	}
+
+	.img4 {
+		position: relative;
+		top: 0;
+		left: 0;
+		display: inline-block;
+		background: url(../img/img4.png) no-repeat;
+		height: 32px;
+		width: 90px;
+		background-size: cover;
+	}
+
+
+	/* ====================
+		Profile
+	=====================*/
+	.img3 {
+		background-image: url(../img/img3.png);
+		background-size: cover;
+		width: 100vw;
+		height: 170vh
+	}
+
+	.profile .sub-title {
+		padding-top: 45vh
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	.sub-title p {
+		font-size: 1.2rem;
+	}
+
+	.prof-pic {
+		width: 200px;
+		height: 200px;
+		float: none;
+		margin: 10% auto;
+	}
+
+	.profile-text {
+		width: 80%;
+		height: 40vh;
+		float: none;
+		margin: 0 auto;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.img5 {
+		background: url(../img/img5.png) no-repeat;
+		width: 200px;
+		height: 55px;
+	}
+
+	.like {
+		font-size: 5rem;
+		color: rgb(244,164,196);
+		display: inline-block;
+		margin: 20px auto;
+	}
+
+	.like-text {
+		display: inline-block;
+		font-size: 1.2rem;
+	}
+
+
+	/* ====================
+		Work
+	=====================*/
+	.mywork {
+		height: 80vh
+	}
+
+	.work {
+		margin: 10% auto;
+		text-align: center;
+	}
+
+	.work img {
+		width: 80%;
+		height: 80%;
+		display: block;
+		margin: 10% auto;
+	}
+
+	/* ====================
+		Contact
+	=====================*/
+	.contact {
+		background-image: url(../img/img3.png);
+		background-size: cover;
+		width: 100%;
+		height: 800px
+	}
+
+	.contact .sub-title {
+		padding-top: 200px;
+	}
+
+
+	.contact-text {
+		margin: 5% auto 0;
+		text-align: center;
+		font-size: 1rem;
+		width: 90%;
+	}
+
+	.flex-box {
+		width: 65%;
+		margin: 5% auto;
+	}
+
+	.form {
+		float: none;
+		margin: 1.5% auto;
+		text-align: center;
+	}
+
+	.form-message {
+		margin: 1.5% auto;
+		text-align: center;
+	}
+
+	.btn {
+		font-size: 1.2rem;
+		padding: 1% 32%;
+		margin-bottom: 5%;
+	}
+
+	/* ====================
+		Footer
+	=====================*/
+	.footer {
+		background-color: rgb(252, 238, 131);
+		height: 10vh;
+	/*	display: absolute;
+	*/	bottom: -20px;
+	}
+
+	.copylight {
+		text-align: center;
+		line-height: 10vh;
+	}
+
+	/* ====================
+		Work-Main Visual
+	=====================*/
+	.works {
+		background-color: rgb(247,239,223);
+	}
+
+	#work-top {
+		margin-top: 5%;
+		margin-bottom: 5%
+	}
+
+	.screenshot {
+		float: none;
+		width: 100%;
+	}
+
+	.explanation {
+		margin-top: 5% auto;
+	}
+
+	.screenshot img {
+		width: 80vw;
+		margin: 0 10vw;
+	}
+
+	.comment-for-work {
+		width: 80vw;
+		float: none;
+		margin: 5vh 10vw;
+	}
+
+	.comment-for-work h2 {
+		margin: 20px 0 5px;
+		font-size: 1.5rem;
+	}
+
+	.comment-for-work p {
+		margin-bottom: 10px;
+		font-size: 1rem;
+	}
+
+	.comment-for-work h1 {
+		margin: 10px 0 5px;
+		font-size: 1.8rem;
+	}
+
+	.comment-for-work a {
+		font-size: 1.2rem;
+	}
+
+	.work2-img-group {
+		width: 80vw;
+		margin: 0 10vw;
+	}
+
+	.work2-img-group {
+		width: 100%;
+		margin: 5vh auto;
+	}
+
+}
+
+
